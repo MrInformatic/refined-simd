@@ -20,4 +20,4 @@ The Combined Exporter and Combined Importer are variants of the normal Exporter 
 
 ## Build from Source
 
-Please follow the instructions from minecraft forge: [https://docs.minecraftforge.net/en/1.12.x/gettingstarted/]
+Please follow the instructions from minecraft forge: https://docs.minecraftforge.net/en/1.12.x/gettingstarted/
