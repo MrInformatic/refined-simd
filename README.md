@@ -4,7 +4,7 @@ Refined SIMD is an extension mod to Refined Storage which adds multiple utility 
 
 ## Installation
 
-This mod uses the Minecraft forge mod loader. To Install the mod drop the build .jar file into the mods/ folder.
+This mod uses the Minecraft forge mod loader. To Install the mod drop the build .jar file into the mods/ folder. Keep in mind that Refined Storage needs to be installed inside your minecraft instance for this mod to work.
 
 ## Usage
 
