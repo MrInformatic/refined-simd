@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "refinedstorage:exporter"
+    },
+    "B": {
+      "item": "#advanced_processor"
+    }
+  },
+  "result": {
+    "item": "refinedsimd:combined_exporter"
+  }
+}

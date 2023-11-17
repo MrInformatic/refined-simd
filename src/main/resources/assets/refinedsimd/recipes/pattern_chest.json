@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CMC",
+    "ABA"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "item": "#advanced_processor"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "A": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    }
+  },
+  "result": {
+    "item": "refinedsimd:remote_crafter"
+  }
+}

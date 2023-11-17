@@ -1,0 +1,10 @@
+
+gui.refinedsimd:importer.items=Importer (Items)
+gui.refinedsimd:importer.fluids=Importer (Fluids)
+gui.refinedsimd:exporter.items=Exporter (Items)
+gui.refinedsimd:exporter.fluids=Exporter (Fluids)
+
+block.refinedsimd:remote_crafter.name=Remote Crafter
+block.refinedsimd:pattern_chest.name=Pattern Chest
+block.refinedsimd:combined_exporter.name=Combined Exporter
+block.refinedsimd:combined_importer.name=Combined Importer

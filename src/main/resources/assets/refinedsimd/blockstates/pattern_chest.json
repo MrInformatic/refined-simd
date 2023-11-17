@@ -1,0 +1,25 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "particle": "refinedsimd:blocks/pattern_chest/side",
+      "north": "refinedsimd:blocks/pattern_chest/side",
+      "east": "refinedsimd:blocks/pattern_chest/side",
+      "south": "refinedsimd:blocks/pattern_chest/side",
+      "west": "refinedsimd:blocks/pattern_chest/side",
+      "up": "refinedsimd:blocks/pattern_chest/top",
+      "down": "refinedsimd:blocks/pattern_chest/bottom"
+    }
+  },
+  "variants": {
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "normal": {
+      "model": "cube"
+    }
+  }
+}
