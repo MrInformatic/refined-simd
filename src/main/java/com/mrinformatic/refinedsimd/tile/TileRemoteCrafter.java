@@ -4,6 +4,7 @@ import com.mrinformatic.refinedsimd.network.NetworkNodeRemoteCrafter;
 import com.raoulvdberge.refinedstorage.gui.TileDataParameterClientListenerCrafter;
 import com.raoulvdberge.refinedstorage.tile.TileNode;
 import com.raoulvdberge.refinedstorage.tile.data.TileDataParameter;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -25,6 +26,13 @@ public class TileRemoteCrafter extends TileNode<NetworkNodeRemoteCrafter> {
     @Nonnull
     public NetworkNodeRemoteCrafter createNode(World world, BlockPos pos) {
         return new NetworkNodeRemoteCrafter(world, pos);
+    }
+
+    @Override
+    public void read(NBTTagCompound tag) {
+        super.read(tag);
+
+        this.getNode().read(tag);
     }
 
     @Override

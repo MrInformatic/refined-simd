@@ -432,6 +432,10 @@ public class NetworkNodeRemoteCrafter extends NetworkNode implements ICraftingPa
     return uuid;
   }
 
+  public UUID getPatterChestUUID() {
+    return patterChestUUID;
+  }
+
   @Override
   public boolean isLocked() {
     Optional<ICraftingPatternContainer> root = getRootContainerNotSelf();

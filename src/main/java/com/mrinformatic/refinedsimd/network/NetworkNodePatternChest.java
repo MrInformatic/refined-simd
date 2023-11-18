@@ -63,6 +63,7 @@ public class NetworkNodePatternChest extends NetworkNode {
     network.getNodeGraph().all().stream()
         .filter(node -> node instanceof NetworkNodeRemoteCrafter)
         .map(node -> (NetworkNodeRemoteCrafter)node)
+        .filter(node -> this.uuid.equals(node.getPatterChestUUID()))
         .forEach(this::register);
   }
 
