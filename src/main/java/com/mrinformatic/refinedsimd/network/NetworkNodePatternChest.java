@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.IItemHandlerModifiable;
 
 import java.util.HashSet;
@@ -112,6 +113,11 @@ public class NetworkNodePatternChest extends NetworkNode {
     return this.uuid;
   }
   public IItemHandlerModifiable getPatternInventory() {
+    return patternsInventory;
+  }
+
+  @Override
+  public IItemHandler getDrops() {
     return patternsInventory;
   }
 

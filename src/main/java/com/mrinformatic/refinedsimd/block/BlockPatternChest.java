@@ -59,19 +59,4 @@ public class BlockPatternChest extends BlockNode {
 
     return openNetworkGui(RefinedSIMDGui.PATTERN_CHEST, player, world, pos, side);
   }
-
-  @Override
-  public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-    super.getDrops(drops, world, pos, state, fortune);
-
-    String displayName = ((TileRemoteCrafter) world.getTileEntity(pos)).getNode().getDisplayName();
-
-    if (displayName != null) {
-      for (ItemStack drop : drops) {
-        if (drop.getItem() == Item.getItemFromBlock(this)) {
-          drop.setStackDisplayName(displayName);
-        }
-      }
-    }
-  }
 }
