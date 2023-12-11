@@ -32,7 +32,7 @@ import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import javax.annotation.Nullable;
 
 public class NetworkNodeCombinedExporter extends NetworkNode implements IComparable, ICoverable {
-    public static final String ID = "exporter";
+    public static final String ID = "combined-exporter";
 
     private static final String NBT_COMPARE = "Compare";
     private static final String NBT_TYPE = "Type";

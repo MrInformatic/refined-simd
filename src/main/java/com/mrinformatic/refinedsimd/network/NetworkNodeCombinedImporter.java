@@ -34,7 +34,7 @@ import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import javax.annotation.Nullable;
 
 public class NetworkNodeCombinedImporter extends NetworkNode implements IComparable, IFilterable, ICoverable {
-    public static final String ID = "importer";
+    public static final String ID = "combined-importer";
 
     private static final String NBT_COMPARE = "Compare";
     private static final String NBT_MODE = "Mode";
